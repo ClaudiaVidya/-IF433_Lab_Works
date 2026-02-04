@@ -1,7 +1,11 @@
 package oop_106784_ClaudiaVidya.week01
 
 fun main() {
-    val gameTitle : String = "Black Myth: Starlight"
-    val price : Int = 800000
+    val gameTitle = "Black Myth: Starlight"
+    val price = 800000
+
+    println("Judul      : $gameTitle")
+    println("Harga: Rp $price")
 
 }
+
