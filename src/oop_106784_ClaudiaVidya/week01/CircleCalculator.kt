@@ -1,6 +1,6 @@
 package oop_106784_ClaudiaVidya.week01
 
-fun main(args: Array<String>) {
+fun main() {
     val radius = 7.0
     val pir = 3.14
 
