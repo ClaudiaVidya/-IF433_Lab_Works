@@ -24,13 +24,21 @@ class Weapon(val name: String) {
 }
 
 fun main() {
-    val sword = Weapon("Excalibur")
+    val myWeapon = Weapon("Soul Star")
 
-    sword.damage = 600
-    println("Tier: ${sword.tier}")
+    println("--- Test 1: Set damage ke -50 ---")
+    myWeapon.damage = -50
+    println("Damage sekarang: ${myWeapon.damage}")
 
-    sword.damage = 1200
-    println("Tier: ${sword.tier}")
+    println()
 
-    sword.damage = -50
+    println("--- Test 2: Set damage ke 9999 ---")
+    myWeapon.damage = 9999
+    println("Damage sekarang: ${myWeapon.damage}")
+
+    println()
+
+    println("--- Hasil Akhir ---")
+    println("Nama Senjata: ${myWeapon.name}")
+    println("Tier Senjata: ${myWeapon.tier}")
 }
