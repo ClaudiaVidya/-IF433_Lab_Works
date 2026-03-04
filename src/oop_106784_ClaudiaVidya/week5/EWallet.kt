@@ -1,9 +1,6 @@
 package oop_106784_ClaudiaVidya.week5
 
-class EWallet(
-    accountName: String,
-    var balance: Double
-) : PaymentMethod(accountName) {
+class EWallet(accountName: String, var balance: Double) : PaymentMethod(accountName) {
 
     override fun processPayment(amount: Double) {
         if (balance >= amount) {
