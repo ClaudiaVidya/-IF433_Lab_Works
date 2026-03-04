@@ -7,11 +7,20 @@ fun main() {
 
     val paymentList: List<PaymentMethod> = listOf(myWallet, myCard)
 
-    println("--- Memulai Pembayaran (Tagihan: 75.000) ---")
+    println("--- Memulai Pembayaran Smart Casting ---")
 
     for (method in paymentList) {
-        println("Memproses metode: ${method.accountName}")
+        println("Metode: ${method.accountName}")
         method.processPayment(75000.0)
         println("-------------------------------------------------")
+
+        if (method is EWallet) {
+            println("Metode dipilih E-Wallet. Menjalankan top-up otomatis ...");
+            method.topUp(50000.0)
+
+            println("Mencoba pembayaran ulang setelah melakukan top-up:")
+            method.processPayment(75000.0);
+            println("-------------------------------------------------")
+        }
     }
 }
