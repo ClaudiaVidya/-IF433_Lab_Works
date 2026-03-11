@@ -12,12 +12,9 @@ fun main() {
     myHub.addDevice(speaker)
     myHub.addDevice(cctv)
 
-    println("\n--- Menyalakan Perangkat ---")
-    lamp.turnOn()
-    speaker.turnOn()
-    cctv.turnOn()
-
     myHub.activateSecurityMode()
 
     myHub.turnOffAllSwitches()
+
+
 }
