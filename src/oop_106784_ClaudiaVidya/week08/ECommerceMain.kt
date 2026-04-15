@@ -18,11 +18,15 @@ fun main() {
             val product = parser.parseProduct(raw)
 
             product?.let {
+                when(it) {
+                    is Electronic -> println("Info: ${it.name} (Warranty ${it.warrantyMonths})")
+                    is Clothing -> println("Info: ${it.name} (Size ${it.size})")
+                }
                 parser.checkout(it)
-            } ?: println("Log: Skipping item (Unknown type or null product)")
+            } ?: println("Log: Skip item dengan tipe tidak dikenal (FOOD)")
 
         } catch (e: IllegalArgumentException) {
-            println("Log Warning: Data korup ditemukan! Reason: ${e.message}")
+            println("Caught Exception: ${e.message}")
         }
     }
 
