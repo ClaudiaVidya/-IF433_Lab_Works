@@ -9,4 +9,16 @@ fun main() {
         TradeLog("ETHUSDT", "LONG", 25, 45.0, "OPEN"),
         TradeLog("BTCUSDT", "SHORT", 10, -2.0, "CLOSED")
     )
+
+    println("=== TRADING PERFORMANCE SUMMARY ===")
+
+    val tradingSummaries = tradeHistory
+        .filter { it.status == "CLOSED" }
+        .sortedByDescending { it.roe }
+        .map {
+            val result = if (it.roe > 0) "PROFIT" else "LOSS"
+            "Pair: ${it.pair} | ROE: ${it.roe}% | Status: $result"
+        }
+
+    tradingSummaries.forEach { println(it) }
 }
