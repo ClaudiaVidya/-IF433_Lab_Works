@@ -45,4 +45,11 @@ fun main() {
 
     println("\n=== UNIQUE TRADED PAIRS ===")
     println(uniquePairs)
+
+    println("\n=== CRYPTO TRADING DASHBOARD ===")
+    topPerformersString.forEach { println(it) }
+    worstPerformersString.forEach { println(it) }
+
+    println("\nTotal Unique Pairs Traded: ${uniquePairs.size}")
+    println("Pairs: $uniquePairs")
 }
