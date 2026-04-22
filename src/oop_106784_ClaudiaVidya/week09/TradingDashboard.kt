@@ -14,10 +14,14 @@ fun main() {
 
     val winningTrades = closedTrades.filter { it.roe > 0 }
 
+    val losingTrades = closedTrades.filter { it.roe <= 0 }
 
     println("=== CLOSED TRADES ===")
     closedTrades.forEach { println(it) }
 
     println("\n=== WINNING TRADES (PROFIT ONLY) ===")
     winningTrades.forEach { println(it) }
+
+    println("\n=== LOSING TRADES (LOSS ONLY) ===")
+    losingTrades.forEach { println(it) }
 }
