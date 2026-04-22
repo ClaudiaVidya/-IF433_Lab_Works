@@ -10,15 +10,14 @@ fun main() {
         TradeLog("BTCUSDT", "SHORT", 10, -2.0, "CLOSED")
     )
 
-    println("=== TRADING PERFORMANCE SUMMARY ===")
+    val closedTrades = tradeHistory.filter { it.status == "CLOSED" }
 
-    val tradingSummaries = tradeHistory
-        .filter { it.status == "CLOSED" }
-        .sortedByDescending { it.roe }
-        .map {
-            val result = if (it.roe > 0) "PROFIT" else "LOSS"
-            "Pair: ${it.pair} | ROE: ${it.roe}% | Status: $result"
-        }
+    val winningTrades = closedTrades.filter { it.roe > 0 }
 
-    tradingSummaries.forEach { println(it) }
+
+    println("=== CLOSED TRADES ===")
+    closedTrades.forEach { println(it) }
+
+    println("\n=== WINNING TRADES (PROFIT ONLY) ===")
+    winningTrades.forEach { println(it) }
 }
