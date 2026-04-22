@@ -52,4 +52,9 @@ fun main() {
 
     println("\nTotal Unique Pairs Traded: ${uniquePairs.size}")
     println("Pairs: $uniquePairs")
+
+    worstPerformersString.forEach { println(it) }
+
+    println("\n=== UNIQUE TRADED PAIRS ===")
+    println(uniquePairs)
 }
