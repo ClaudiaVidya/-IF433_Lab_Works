@@ -1,0 +1,172 @@
+[33ma74aedb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33m996742b[m HEAD@{1}: reset: moving to HEAD~1
+[33ma9e8175[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{2}: commit: week09: chain filter, sortedBy, and map on object collection
+[33m996742b[m HEAD@{3}: commit: week09: create Student data class and list
+[33ma74aedb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{4}: commit: week09: implement sortedByDescending and forEach
+[33m82dae2e[m HEAD@{5}: commit: week09: implement filter HOF to extract data
+[33m914f224[m HEAD@{6}: commit: week09: create basic lambdas using explicit and implicit syntax
+[33mf6467f1[m HEAD@{7}: commit: week09: implement map for key-value storage
+[33m8865fdd[m HEAD@{8}: commit: week09: implement set to discard duplicate elements
+[33mcb7a07c[m HEAD@{9}: commit: week09: create immutable and mutable list
+[33mb2fd97c[m HEAD@{10}: commit: week08: (task) test full e-commerce pipeline in main
+[33m08027a3[m HEAD@{11}: commit: week08: (task) process mixed raw JSON list using as?
+[33mad44ec3[m HEAD@{12}: commit: week08: (task) implement payment processing with !!
+[33m42e6254[m HEAD@{13}: commit: week08: (task) create JavaPaymentService for payment interop
+[33m4ec86db[m HEAD@{14}: commit: week08: (task) implement robust ApiParser using Elvis and
+[33m8079c71[m HEAD@{15}: reset: moving to HEAD~1
+[33m57eee7a[m HEAD@{16}: reset: moving to HEAD~1
+[33m05676be[m HEAD@{17}: reset: moving to HEAD~1
+[33m2d9c042[m HEAD@{18}: commit: week08: (task) implement payment processing with !!
+[33m05676be[m HEAD@{19}: commit: week08: (task) create JavaPaymentService for payment interop
+[33m57eee7a[m HEAD@{20}: commit: week08: (task) implement robust ApiParser using Elvis and
+[33m8079c71[m HEAD@{21}: commit: week08: (task) create sealed class Product and data classes
+[33mc22b5dc[m HEAD@{22}: commit: fix yang tadi
+[33mce2630c[m HEAD@{23}: commit: week08: simulate unit test failure using !!
+[33md1106e2[m HEAD@{24}: commit: week08: implement java interop using !!
+[33m9017fbb[m HEAD@{25}: commit: week08: create LegacyJavaAPI class in Java
+[33m021142f[m HEAD@{26}: commit: week08: implement requireNotNull as safer alternative
+[33m5beafc0[m HEAD@{27}: commit: week08: (trial) trigger NullPointerException with !!
+[33m705cb1f[m HEAD@{28}: commit: week08: test safe casting in main
+[33mbf3ce01[m HEAD@{29}: commit: week08: create fallback logic with as? and elvis
+[33m8a8fd11[m HEAD@{30}: commit: week08: implement safe casting as? to filter collection
+[33m139ceea[m HEAD@{31}: commit: week08: create mixed data collection
+[33m725d361[m HEAD@{32}: commit: week08: implement safe call with let block
+[33m4516cdc[m HEAD@{33}: commit: week08: implement chained safe calls and elvis
+[33m6f77ea6[m HEAD@{34}: commit: week08: create nested classes for Order
+[33m8ac2123[m HEAD@{35}: commit: week08: implement smart cast in function
+[33m0509a96[m HEAD@{36}: commit: week08: create basic UserProfile with nullable fields
+[33mc0dde2d[m HEAD@{37}: commit: week07: (task) test data class copy and sealed class event dispatch
+[33m0a9e3ec[m HEAD@{38}: commit: week07: (task) simulate rarity and factory instantiation
+[33me0af2a5[m HEAD@{39}: commit: week07: (task) test GameManager singleton in main
+[33m95f29b2[m HEAD@{40}: commit: week07: (task) implement exhaustive processEvent
+[33m942db26[m HEAD@{41}: commit: week07: (task) create BattleState sealed class hierarchy
+[33m8223b51[m HEAD@{42}: commit: week07: (task) implement factory pattern in WeaponForge
+[33mccf8afd[m HEAD@{43}: commit: week07: (task) create GameItem data class
+[33m9d46bdd[m HEAD@{44}: commit: week07: (task) create ItemRarity enum
+[33mac560c0[m HEAD@{45}: commit: week07: (task) create GameManager singleton
+[33m21707c2[m HEAD@{46}: commit: week07: resolve sealed class exhaustive check
+[33m30e65c8[m HEAD@{47}: commit: week07: (trial) trigger non-exhaustive when compiler error
+[33m32b10ca[m HEAD@{48}: commit: week07: create ApiResponse sealed class
+[33maf9942d[m HEAD@{49}: commit: week07: create AppState enum
+[33m6adf706[m HEAD@{50}: commit: week07: implement copy and destructuring on data class
+[33m85fe5c1[m HEAD@{51}: commit: week07: implement data class for structural equality
+[33med15b6c[m HEAD@{52}: commit: week07: (trial) demonstrate regular class equality failure
+[33m4ce2eb1[m HEAD@{53}: commit: week07: test Singleton and Companion Object in main
+[33m79ec438[m HEAD@{54}: reset: moving to HEAD
+[33m79ec438[m HEAD@{55}: commit: week07: implement companion object as factory in NetworkClient
+[33m6077ac3[m HEAD@{56}: reset: moving to HEAD~1
+[33meef0b4d[m HEAD@{57}: reset: moving to HEAD~1
+[33ma388e5f[m HEAD@{58}: commit: week07: test Singleton and Companion Object in main
+[33meef0b4d[m HEAD@{59}: commit: week07: implement companion object as factory in NetworkClient
+[33m6077ac3[m HEAD@{60}: commit: week07: (trial) trigger private constructor error on NetworkClient
+[33mf35dcf6[m HEAD@{61}: commit: week07: create singleton DatabaseManager
+[33m45068eb[m HEAD@{62}: commit: week06: (task) test smart home system logic in main
+[33m497940b[m HEAD@{63}: commit: week06: (task) instantiate smart devices in main
+[33m2799a5d[m HEAD@{64}: commit: week06: (task) implement advanced smart casting in Hub
+[33m93129f4[m HEAD@{65}: commit: week06: (task) create SmartHomeHub logic
+[33m0fba5e6[m HEAD@{66}: commit: week06: (task) create SmartCCTV with compound interfaces
+[33ma61b410[m HEAD@{67}: commit: week06: (task) create SmartSpeaker
+[33m3348e52[m HEAD@{68}: commit: week06: (task) create SmartLamp
+[33mb0d4a33[m HEAD@{69}: commit: week06: (task) create smart home interfaces
+[33mfa79920[m HEAD@{70}: commit: week06: implement decoupled processCheckout in main
+[33md6a8098[m HEAD@{71}: commit: week06: create Gopay and CreditCard
+[33mb22540c[m HEAD@{72}: commit: week06: create PaymentMethod contract
+[33mc1ea0e0[m HEAD@{73}: commit: week06: fix diamond problem using explicit super delegation
+[33mc4c7ff8[m HEAD@{74}: commit: week06: (trial) trigger the diamond problem compiler error
+[33mc420710[m HEAD@{75}: commit: week06: create Camera and Phone interfaces with default methods
+[33m30942cd[m HEAD@{76}: commit: week06: create Smartwatch with multiple implementations
+[33mcf33519[m HEAD@{77}: commit: week06: create compound interfaces
+[33mb469425[m HEAD@{78}: commit: week06: create Watch abstract class
+[33mad81747[m HEAD@{79}: commit: week06: create Button class implementing Clickable
+[33ma630cbf[m HEAD@{80}: commit: week06: fix Clickable interface using abstract property
+[33m304c183[m HEAD@{81}: commit: week06: (trial) create Clickable interface with backing field error
+[33m806d02a[m HEAD@{82}: reset: moving to HEAD~1
+[33m3c95fbc[m HEAD@{83}: reset: moving to HEAD~1
+[33m8ceede1[m HEAD@{84}: reset: moving to HEAD~1
+[33m5d3564f[m HEAD@{85}: commit: week06: create Button class implementing Clickable
+[33m8ceede1[m HEAD@{86}: commit: week06: fix Clickable interface using abstract property
+[33m3c95fbc[m HEAD@{87}: commit: week06: (trial) create Clickable interface with backing field error
+[33m806d02a[m HEAD@{88}: commit: week05: (task 2) add smart casting for EWallet topUp recovery
+[33m39604e7[m HEAD@{89}: commit: week05: (task 2) implement payment polymorphism
+[33m061bb31[m HEAD@{90}: commit: week05: (task 2) create CreditCard class
+[33mba7bc5c[m HEAD@{91}: commit: week05: (task 2) create EWallet class
+[33mc7c9544[m HEAD@{92}: commit: week05: (task 2) create abstract PaymentMethod
+[33m33dbe23[m HEAD@{93}: commit: week05: (task 1) test MathHelper overloading in main
+[33mee71ac2[m HEAD@{94}: commit: week05: (task 1) create MathHelper class with overloading
+[33m6bb3501[m HEAD@{95}: commit: week05: implement polymorphic collection and smart casting
+[33mb42f2d0[m HEAD@{96}: commit: week05: create Admin class inheriting Pegawai
+[33m479d127[m HEAD@{97}: commit: week05: create Dosen class inheriting Pegawai
+[33m0977ac6[m HEAD@{98}: commit: week05: create abstract class Pegawai
+[33mce72414[m HEAD@{99}: commit: week04: (task 2) test Employee hierarchy in main
+[33m4101ec4[m HEAD@{100}: commit: week04: (task 2) create Developer class
+[33m7dd0ec3[m HEAD@{101}: reset: moving to HEAD~1
+[33mf9d3a42[m HEAD@{102}: pull: Fast-forward
+[33m7dd0ec3[m HEAD@{103}: reset: moving to HEAD~1
+[33mf9d3a42[m HEAD@{104}: commit: week04: (task 2) create Developer class
+[33m7dd0ec3[m HEAD@{105}: commit: week04: (task 2) create Manager class overriding Employee
+[33m619a69d[m HEAD@{106}: commit: week04: (task 2) create parent class Employee
+[33m71fb312[m HEAD@{107}: commit: week04: (task 1) test ElectricCar in main
+[33m5a6d712[m HEAD@{108}: commit: week04: (task 1) create ElectricCar class with final override
+[33m2683a7c[m HEAD@{109}: commit: week04: test Vehicle and Car in main
+[33mf191d55[m HEAD@{110}: commit: week04: implement super keyword in Car accelerate
+[33maca0069[m HEAD@{111}: commit: week04: override honk method in Car
+[33m35564ed[m HEAD@{112}: commit: week04: create Car class extending Vehic
+[33mc90f504[m HEAD@{113}: commit: week04: create basic Vehicle parent class
+[33m60783d3[m HEAD@{114}: commit: week03: (task 2) implement Player testing in main
+[33m524592a[m HEAD@{115}: commit: week03: (task 2) create Player class with private xp
+[33mc3ea6cd[m HEAD@{116}: commit: week03: (task 1) implement Weapon testing in main
+[33m2a0f5e5[m HEAD@{117}: commit: week03: (task 1) create Weapon class with validation
+[33m2a1370c[m HEAD@{118}: commit: week03: cleanup code
+[33mf4291ef[m HEAD@{119}: commit: week03: test all encapsulation logic in main
+[33m1def47b[m HEAD@{120}: commit: week03: add private property
+[33m708d546[m HEAD@{121}: commit: week03: fix setter using backing field
+[33m4829597[m HEAD@{122}: commit: week03: simulate stack overflow error in setter
+[33m507514b[m HEAD@{123}: commit: week03: create basic Employee class
+[33mc97e070[m HEAD@{124}: commit: week02: (task 2) implement the game
+[33m060bd99[m HEAD@{125}: commit: week02: (task 2) create Hero class
+[33m50be964[m HEAD@{126}: commit: week02: (task 1) implement library input system
+[33m04b3353[m HEAD@{127}: commit: week02: (task 1) create Loan class with default args
+[33m0570198[m HEAD@{128}: commit: week02: implement selection logic for constructors
+[33mefcb641[m HEAD@{129}: commit: week02: challenge refactor primary constructor using default args
+[33m4ca0215[m HEAD@{130}: commit: add secondary constructor
+[33mebb92c7[m HEAD@{131}: commit: week02: implement user input and pre-validation
+[33m1cc8cfa[m HEAD@{132}: commit: week02: add warning validation in init block
+[33mdfa052c[m HEAD@{133}: commit: week02: create basic Student class structure
+[33m4803540[m HEAD@{134}: reset: moving to 4803540
+[33m53ef91c[m HEAD@{135}: commit: week02: create basic Student class structure
+[33m4803540[m HEAD@{136}: reset: moving to HEAD~1
+[33mddc1616[m HEAD@{137}: reset: moving to HEAD~1
+[33m882f22c[m HEAD@{138}: commit: week02: create basic Student class structure
+[33mddc1616[m HEAD@{139}: commit (amend): week02: create basic Student class structure
+[33m21f885a[m HEAD@{140}: commit: week02: create basic Student class structure
+[33m4803540[m HEAD@{141}: reset: moving to HEAD~1
+[33m013796d[m HEAD@{142}: reset: moving to HEAD~1
+[33m6649e78[m HEAD@{143}: reset: moving to HEAD
+[33m6649e78[m HEAD@{144}: reset: moving to HEAD
+[33m6649e78[m HEAD@{145}: commit: week02: create basic Student class structure
+[33m013796d[m HEAD@{146}: reset: moving to HEAD
+[33m013796d[m HEAD@{147}: commit: week02: create basic Student class structure
+[33m4803540[m HEAD@{148}: commit: week01:(Tugas2) Implement null safety for user note
+[33m857a693[m HEAD@{149}: commit: week01:(Tugas2) implement receipt printing
+[33mdb6a2d4[m HEAD@{150}: commit: week01:(Tugas2) implement discount logic
+[33m815f64a[m HEAD@{151}: commit: week01:(Tugas2) update printlnya untuk judul dan harga asli
+[33m568c742[m HEAD@{152}: commit: week01:(Tugas2) setup gameStore file
+[33m91864bf[m HEAD@{153}: commit: week01:(Tugas01) clean up unused argos and comments
+[33m25e81dd[m HEAD@{154}: commit: week01:(Tugas01) convert checkSize to expression body funtion
+[33mfe2e3d0[m HEAD@{155}: commit: week01:(Tugas1) refactor variable to val and use string templates
+[33m8a6b376[m HEAD@{156}: commit: week01:(Tugas1) add legacy CirleCalculator code
+[33mea4ce4c[m HEAD@{157}: commit: week01: implement null safety check, karena ada errror, makanya saya kasih space banyak, biar dia bisa diisi. kalau ga dia ga bs diisi langsung keaapus
+[33m59d7a54[m HEAD@{158}: commit: week01: add calculateStatus funcation
+[33m3100e2d[m HEAD@{159}: commit: week01: implement gradding logic using when expression
+[33m8a3a066[m HEAD@{160}: reset: moving to HEAD~1
+[33ma46a52a[m HEAD@{161}: reset: moving to HEAD~1
+[33mb6d1e8f[m HEAD@{162}: commit: week01: add calculateStatus function
+[33ma46a52a[m HEAD@{163}: commit: week01: add calculateStatus funcation
+[33m8a3a066[m HEAD@{164}: reset: moving to HEAD~1
+[33m782349a[m HEAD@{165}: reset: moving to HEAD~1
+[33m9c3e928[m HEAD@{166}: reset: moving to HEAD~1
+[33me6a5610[m HEAD@{167}: commit: week01: implement null safety check
+[33m9c3e928[m HEAD@{168}: commit: week01: add calculateStatus function
+[33m782349a[m HEAD@{169}: commit: week01: add calculateStatus funcation
+[33m8a3a066[m HEAD@{170}: commit: week01: refector to use val and string templates yang sebelumnya, ini yang pertama. ternyata ada stepnya, ga ada, makanya yang pertama pake yang $
+[33m6b5c66b[m HEAD@{171}: commit (initial): week01: install setup and procedural code
