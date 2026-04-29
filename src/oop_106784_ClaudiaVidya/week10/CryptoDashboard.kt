@@ -21,3 +21,5 @@ fun main() {
     txRepo.add(Transaction("TX002", 0.15))
     txRepo.add(Transaction("TX003", 50.0))
 }
+
+//tadi error karena ga ada NamedEntity
