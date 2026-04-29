@@ -19,3 +19,4 @@ class WalletRepository<T: NamedEntity> {
         return items.find { it.name.equals(name, ignoreCase = true) }
     }
 }
+
