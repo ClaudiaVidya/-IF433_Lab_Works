@@ -34,20 +34,21 @@ fun main() {
     val searchResult = homeDevices.find { it.category == "Camera" }
 
     searchResult?.let {
+        println("\n--- Hasil Pencarian Kamera ---")
         println(it.diagnose())
-    }
-
-    with(homeDevices) {
-        println("\n=== RANGKUMAN DASHBOARD SMART HOME ===")
-        println("Total perangkat terdaftar: ${this.size}")
-
-        forEach { device ->
-            println(device.diagnose())
-        }
     }
 
     val totalPower = homeDevices.run {
         sumOf { it.powerLoad }
     }
-    println("Total beban daya saat ini: $totalPower Watt")
+
+    with(homeDevices) {
+        println("\n=== RANGKUMAN DASHBOARD ===")
+        println("Total perangkat terdaftar: ${this.size}")
+        println("Total beban daya saat ini : $totalPower Watt")
+
+        forEach { device ->
+            println(device.diagnose())
+        }
+    }
 }
