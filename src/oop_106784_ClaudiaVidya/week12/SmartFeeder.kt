@@ -47,4 +47,6 @@ fun main() {
     }.onFailure { e ->
         println("Peringatan ke Pemilik: ${e.message}")
     }
+
+    println("Program berjalan dengan lancar")
 }
