@@ -24,20 +24,28 @@ class EmailNotifier : NotificationService {
     }
 }
 
+interface PricingStrategy {
+    fun calculate(price: Double): Double
+}
+
+class RegularPricing : PricingStrategy {
+    override fun calculate(price: Double): Double = price
+}
+
+class VipPricing : PricingStrategy {
+    override fun calculate(price: Double): Double = price * 0.90
+}
+
 class SafeOrderProcessor(
     private val repo: OrderRepository,
     private val notifier: NotificationService
 ) {
-    fun processOrder(itemName: String, basePrice: Double, customerType: String) {
-        val finalPrice = when (customerType) {
-            "REGULAR" -> basePrice
-            "VIP" -> basePrice * 0.90
-            else -> basePrice
-        }
+    fun processOrder(itemName: String, basePrice: Double, strategy: PricingStrategy) {
+        val finalPrice = strategy.calculate(basePrice)
 
         println("Memproses pesanan $itemName seharga $finalPrice")
 
-        repo.saveOrder(itemName, finalPrice, customerType)
+        repo.saveOrder(itemName, finalPrice, "CUSTOMER_TYPE")
         notifier.sendNotification(itemName)
     }
 }
